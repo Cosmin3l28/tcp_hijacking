@@ -3,6 +3,7 @@ import socket
 import logging
 import time
 import random
+import threading
 
 logging.basicConfig(format='[%(asctime)s] %(message)s', level=logging.INFO)
 
@@ -19,9 +20,31 @@ while True:
         logging.warning(f"Conexiune eșuată, retry in 1s... {e}")
         time.sleep(1)
 
-while True:
-    mesaj = f"Mesaj random {random.randint(1, 100)}"
-    sock.send(mesaj.encode())
-    raspuns = sock.recv(1024)
-    logging.info(f"Răspuns primit: {raspuns.decode()}")
-    time.sleep(2)
+
+def send_loop(connection):
+    """Trimite mesaje random către server la fiecare 2 secunde."""
+    while True:
+        try:
+            mesaj = f"Mesaj client {random.randint(1, 100)}"
+            connection.send(mesaj.encode())
+        except Exception:
+            break
+        time.sleep(2)
+
+
+def recv_loop(connection):
+    """Primește mesaje de la server și le afișează."""
+    while True:
+        data = connection.recv(1024)
+        if not data:
+            break
+        logging.info(f"Răspuns primit: {data.decode()}")
+
+
+send_thread = threading.Thread(target=send_loop, args=(sock,), daemon=True)
+recv_thread = threading.Thread(target=recv_loop, args=(sock,), daemon=True)
+send_thread.start()
+recv_thread.start()
+
+send_thread.join()
+recv_thread.join()
