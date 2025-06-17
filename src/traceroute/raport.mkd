@@ -1,0 +1,20 @@
+
+- **Asia (www.baidu.com):**
+  - Hop 6: Warsaw, Mazovia, Poland
+  - Hop 7: Bucharest, București, Romania
+  - Hop 8: Milan, Lombardy, Italy
+  - Hop 11: Tseung Kwan O, Sai Kung District, Hong Kong
+  - Hop 12: Chai Wan, Eastern, Hong Kong
+  - Hop 13: Chiyoda, Tokyo, Japan
+
+- **Africa (www.gov.za):**
+  - Hop 7: London, England, United Kingdom
+  - Hop 8: Johannesburg, Gauteng, South Africa
+  - Hop 9: Johannesburg, Gauteng, South Africa
+  - Hop 10: Johannesburg, Gauteng, South Africa
+  - Hop 11: Johannesburg, Gauteng, South Africa
+  - Hop 12: Johannesburg, Gauteng, South Africa
+  - Hop 13: Orange Farm, Gauteng, South Africa
+
+- **Australia (www.abc.net.au):**
+  - Hop 6: Bucharest, București, Romania

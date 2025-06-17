@@ -1,0 +1,14 @@
+Traceroute către www.gov.za (197.103.130.130), maxim 30 hop-uri:
+ 1  192.168.100.1    0.50 ms  →  (adresă privată)
+ 2  10.0.27.204      1.93 ms  →  (adresă privată)
+ 3  172.19.216.97    2.05 ms  →  (adresă privată)
+ 4  10.220.165.6     1.85 ms  →  (adresă privată)
+ 5  *
+ 6  10.221.96.23     43.39 ms  →  (adresă privată)
+ 7  195.66.224.198   48.57 ms  →  London, England, United Kingdom
+ 8  168.209.201.94   223.68 ms  →  Johannesburg, Gauteng, South Africa
+ 9  168.209.1.200    220.62 ms  →  Johannesburg, Gauteng, South Africa
+10  168.209.129.138  220.05 ms  →  Johannesburg, Gauteng, South Africa
+11  168.209.90.94    220.00 ms  →  Johannesburg, Gauteng, South Africa
+12  168.209.131.145  218.90 ms  →  Johannesburg, Gauteng, South Africa
+13  197.103.130.130  217.62 ms  →  Orange Farm, Gauteng, South Africa

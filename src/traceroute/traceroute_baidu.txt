@@ -1,0 +1,31 @@
+Traceroute către www.baidu.com (103.235.46.115), maxim 30 hop-uri:
+ 1  192.168.100.1    0.47 ms  →  (adresă privată)
+ 2  10.0.27.204      1.77 ms  →  (adresă privată)
+ 3  172.19.216.97    2.36 ms  →  (adresă privată)
+ 4  10.220.165.6     1.82 ms  →  (adresă privată)
+ 5  *
+ 6  213.249.122.17   4.31 ms  →  Warsaw, Mazovia, Poland
+ 7  129.250.9.182    3.05 ms  →  Bucharest, București, Romania
+ 8  129.250.3.194    34.36 ms  →  Milan, Lombardy, Italy
+ 9  *
+10  *
+11  129.250.7.67     213.43 ms  →  Tseung Kwan O, Sai Kung District, Hong Kong
+12  129.250.2.183    216.46 ms  →  Chai Wan, Eastern, Hong Kong
+13  203.131.246.190  216.45 ms  →  Chiyoda, Tokyo, Japan
+14  *
+15  *
+16  *
+17  *
+18  *
+19  *
+20  *
+21  *
+22  *
+23  *
+24  *
+25  *
+26  *
+27  *
+28  *
+29  *
+30  *

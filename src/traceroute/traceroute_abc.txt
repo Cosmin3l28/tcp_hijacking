@@ -1,0 +1,31 @@
+Traceroute către www.abc.net.au (92.122.16.92), maxim 30 hop-uri:
+ 1  192.168.100.1    0.57 ms  →  (adresă privată)
+ 2  10.0.27.204      2.83 ms  →  (adresă privată)
+ 3  172.19.216.97    1.71 ms  →  (adresă privată)
+ 4  10.220.165.6     1.96 ms  →  (adresă privată)
+ 5  *
+ 6  81.196.20.185    6.31 ms  →  Bucharest, București, Romania
+ 7  *
+ 8  *
+ 9  *
+10  *
+11  *
+12  *
+13  *
+14  *
+15  *
+16  *
+17  *
+18  *
+19  *
+20  *
+21  *
+22  *
+23  *
+24  *
+25  *
+26  *
+27  *
+28  *
+29  *
+30  *

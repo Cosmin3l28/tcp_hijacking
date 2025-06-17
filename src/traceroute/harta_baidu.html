@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_37ad0754fef628a970f0f3b6c2fdc775 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_37ad0754fef628a970f0f3b6c2fdc775" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_37ad0754fef628a970f0f3b6c2fdc775 = L.map(
+                "map_37ad0754fef628a970f0f3b6c2fdc775",
+                {
+                    center: [22.2825, 114.158],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c6a54b97f1e9cf1ebcfacaa1b785f9df = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c6a54b97f1e9cf1ebcfacaa1b785f9df.addTo(map_37ad0754fef628a970f0f3b6c2fdc775);
+        
+    
+            var marker_cd262b4f335ddeabc9629709496ab952 = L.marker(
+                [22.2825, 114.158],
+                {
+}
+            ).addTo(map_37ad0754fef628a970f0f3b6c2fdc775);
+        
+    
+        var popup_0ffa980aa30dc37e58269724771af45a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a36fd95b6ca84b2558aeb464787c2c20 = $(`<div id="html_a36fd95b6ca84b2558aeb464787c2c20" style="width: 100.0%; height: 100.0%;">103.235.46.115 - Central, Central and Western District, Hong Kong</div>`)[0];
+                popup_0ffa980aa30dc37e58269724771af45a.setContent(html_a36fd95b6ca84b2558aeb464787c2c20);
+            
+        
+
+        marker_cd262b4f335ddeabc9629709496ab952.bindPopup(popup_0ffa980aa30dc37e58269724771af45a)
+        ;
+
+        
+    
+    
+            var marker_7537f16ae33ae15622518e0770687246 = L.marker(
+                [52.2297, 21.0122],
+                {
+}
+            ).addTo(map_37ad0754fef628a970f0f3b6c2fdc775);
+        
+    
+        var popup_d50955cb41823166af32e3d72e550498 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8570820499b4f838f1ef1e97ccc6e0b = $(`<div id="html_f8570820499b4f838f1ef1e97ccc6e0b" style="width: 100.0%; height: 100.0%;">213.249.122.17 - Warsaw, Mazovia, Poland</div>`)[0];
+                popup_d50955cb41823166af32e3d72e550498.setContent(html_f8570820499b4f838f1ef1e97ccc6e0b);
+            
+        
+
+        marker_7537f16ae33ae15622518e0770687246.bindPopup(popup_d50955cb41823166af32e3d72e550498)
+        ;
+
+        
+    
+    
+            var marker_bbbb5cf131feee32f9ca3cf0fc6d693b = L.marker(
+                [44.4268, 26.1025],
+                {
+}
+            ).addTo(map_37ad0754fef628a970f0f3b6c2fdc775);
+        
+    
+        var popup_660db4618569a7c147528fc12370ec85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0170bc357e534660b67eee4c04a8f280 = $(`<div id="html_0170bc357e534660b67eee4c04a8f280" style="width: 100.0%; height: 100.0%;">129.250.9.182 - Bucharest, București, Romania</div>`)[0];
+                popup_660db4618569a7c147528fc12370ec85.setContent(html_0170bc357e534660b67eee4c04a8f280);
+            
+        
+
+        marker_bbbb5cf131feee32f9ca3cf0fc6d693b.bindPopup(popup_660db4618569a7c147528fc12370ec85)
+        ;
+
+        
+    
+    
+            var marker_5cdf4cec9f2c40e84fc7dbf9aec853fc = L.marker(
+                [45.4642, 9.18998],
+                {
+}
+            ).addTo(map_37ad0754fef628a970f0f3b6c2fdc775);
+        
+    
+        var popup_b14e90877197f23269fffbeba15d00b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_362dece50ef892a183c0c88b5267e40c = $(`<div id="html_362dece50ef892a183c0c88b5267e40c" style="width: 100.0%; height: 100.0%;">129.250.3.194 - Milan, Lombardy, Italy</div>`)[0];
+                popup_b14e90877197f23269fffbeba15d00b3.setContent(html_362dece50ef892a183c0c88b5267e40c);
+            
+        
+
+        marker_5cdf4cec9f2c40e84fc7dbf9aec853fc.bindPopup(popup_b14e90877197f23269fffbeba15d00b3)
+        ;
+
+        
+    
+    
+            var marker_1fcdfcbe46c3d1144ab7e633fe37859b = L.marker(
+                [22.3089, 114.264],
+                {
+}
+            ).addTo(map_37ad0754fef628a970f0f3b6c2fdc775);
+        
+    
+        var popup_ff97bf2e878445afe094237200aa30de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8741cf02554c9bcdac93f1d5b8211f34 = $(`<div id="html_8741cf02554c9bcdac93f1d5b8211f34" style="width: 100.0%; height: 100.0%;">129.250.7.67 - Tseung Kwan O, Sai Kung District, Hong Kong</div>`)[0];
+                popup_ff97bf2e878445afe094237200aa30de.setContent(html_8741cf02554c9bcdac93f1d5b8211f34);
+            
+        
+
+        marker_1fcdfcbe46c3d1144ab7e633fe37859b.bindPopup(popup_ff97bf2e878445afe094237200aa30de)
+        ;
+
+        
+    
+    
+            var marker_9233a856b8f23a23e4e09efcaa942696 = L.marker(
+                [22.2678, 114.236],
+                {
+}
+            ).addTo(map_37ad0754fef628a970f0f3b6c2fdc775);
+        
+    
+        var popup_f8682e2339acd8bb9047637fba6b8256 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bcbd3926da7e720f3705a9eaf5cab8d = $(`<div id="html_4bcbd3926da7e720f3705a9eaf5cab8d" style="width: 100.0%; height: 100.0%;">129.250.2.183 - Chai Wan, Eastern, Hong Kong</div>`)[0];
+                popup_f8682e2339acd8bb9047637fba6b8256.setContent(html_4bcbd3926da7e720f3705a9eaf5cab8d);
+            
+        
+
+        marker_9233a856b8f23a23e4e09efcaa942696.bindPopup(popup_f8682e2339acd8bb9047637fba6b8256)
+        ;
+
+        
+    
+    
+            var marker_e22c620653981afb27d8ea3b0777c869 = L.marker(
+                [35.6869, 139.767],
+                {
+}
+            ).addTo(map_37ad0754fef628a970f0f3b6c2fdc775);
+        
+    
+        var popup_3859b9a75717e8151183c45e4e0d33ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4a0e82669818ed0de84152b6f88250b = $(`<div id="html_f4a0e82669818ed0de84152b6f88250b" style="width: 100.0%; height: 100.0%;">203.131.246.190 - Chiyoda, Tokyo, Japan</div>`)[0];
+                popup_3859b9a75717e8151183c45e4e0d33ef.setContent(html_f4a0e82669818ed0de84152b6f88250b);
+            
+        
+
+        marker_e22c620653981afb27d8ea3b0777c869.bindPopup(popup_3859b9a75717e8151183c45e4e0d33ef)
+        ;
+
+        
+    
+    
+            var poly_line_f4023a53c91dcf90648c23a3e05608af = L.polyline(
+                [[22.2825, 114.158], [52.2297, 21.0122], [44.4268, 26.1025], [45.4642, 9.18998], [22.3089, 114.264], [22.2678, 114.236], [35.6869, 139.767]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_37ad0754fef628a970f0f3b6c2fdc775);
+        
+</script>
+</html>
